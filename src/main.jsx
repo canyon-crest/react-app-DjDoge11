@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import Nav from './nav.jsx'
 import Card from './card.jsx'
+import Footer from './Footer.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -11,6 +12,7 @@ createRoot(document.getElementById('root')).render(
     <Card name="Food" description="Are you hungry? I know you're hungry" />
     <Card name="Water" description="Hydrate or Diedrate" />
     <Card name="Dehydrated Water" description="'Just add water'" />
-    {/* <App /> */}
+    {/* <App /> */} 
+    <Footer />
   </StrictMode>,
 )
