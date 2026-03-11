@@ -1,15 +1,11 @@
-div {
-    background-color: #242424;
-    padding: 1rem 0;
-}
 ul{
     display: flex;
-    justify-content: center; /* Horizontally center items */
-    align-items: center;      /* Vertically center items */
+    justify-content: center; 
+    align-items:flex-start;
     list-style-type: none;
     gap: 2rem;
     margin: 0;
-    padding: 0;
+    padding: 1rem;
     flex-wrap: wrap;
 }
 div ul li {
